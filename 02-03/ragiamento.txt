@@ -1,0 +1,43 @@
+Richiesta:
+Scrivi una funzione PHP che:
+• Prenda un numero intero positivo
+• Stampi i numeri da 1 a quel numero
+• Ma:
+Se il numero è multiplo di 3 → stampa "Fizz"
+Se è multiplo di 5 → stampa "Buzz"
+Se è multiplo di 3 e 5 → stampa "FizzBuzz"
+
+Approccio: 
+Prendo in input un numeri postivo 
+Devo fare in output un numero E una stringa in determinati casi 
+
+ho bisogno di stampare piu volte un qualcosa percio ho bisogno di un ciclo 
+e dato che la stringa avvine in detemrinati momenti serve una condzione 
+
+percio devo fare qualcosa del tipo 
+
+Funzione (Numero){
+    per ogni Numero
+        
+        Se il numero e multiplo di 3 
+            stampa Fizz
+        Se il numero e multimo di 5
+            stampa Buzz
+        Se il numero e multplo di 3 e 5
+            stampa FizzBuzz
+        
+        Se no 
+            stampa numero 
+}
+
+Primo approccio ragioando sul problema e poco versatile ma essite e dovrebbe fare il lavoro che gli ho assegnato 
+
+errore a livello sequeziale 
+    prima controllo se e multiplo di entrambi 
+    poi se e multiplo di 3 
+    poi se e multiplo di 5
+
+al contrario non entra nel ultima cassitica a piu senso escludere subito chi rientrata in trembe e poi se assegnare il posto hai rimanneti se sotto 3 o 5
+
+
+
