@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        font-family: "Arial Black", Arial, sans-serif;
+      }
+
+      .card-wrapper {
+        background-color: black;
+        padding: 40px;
+        max-width: 680px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #ffffff;
+        font-size: 2.2rem;
+      }
+
+      .logo-star {
+        color: red;
+        font-size: 2.4rem
+      }
+
+      .message-box {
+        background-color: white;
+        border-radius: 10px;
+        padding: 80px;
+        text-align: center;
+      }
+
+      .message-box p {
+        font-size: 1.5rem;
+      }
+
+      .footer {
+        color: gray;
+        position: relative;
+        margin-top: 2rem;
+        font-size:0.7rem;
+        font-family: Arial, sans-serif;
+      }
+
+      @media (max-width: 480px) {
+
+        .message-box {
+          padding: 40px 24px;
+        }
+        .message-box p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-wrapper">
+      <div class="logo">
+        <span class="logo-star">✦</span>
+        <span>CLUB</span>  
+      </div>
+
+      <div class="message-box">
+        <p>
+          Stiamo effettuando alcuni aggiornamenti. Il sito sarà presto di nuovo
+          disponibile.
+        </p>
+      </div>
+
+      <div class="footer">© Copyright 2026 - All rights reserved</div>
+    </div>
+  </body>
+</html>
