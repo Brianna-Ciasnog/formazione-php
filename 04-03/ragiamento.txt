@@ -8,6 +8,26 @@ Dato un Array di utenti dovro genererare un report fine con
 Consigli:
 Gestione tramite funzione non gestione ad oggetti
 Uttilizzo di Array di Array 
+
 Approccio: 
+in input ricevo un array di utenti con multiple infomazioni al intenro
+in output devo restrure un array che contenga le informazioni richieste 
 
+Processo logico 
+ devo prendere gli array del singolo utenete 
+ poi devo controllare una delle informazioni richieste <- prima ipotesi una alla volta
+ poi devo savarla da un altra parte 
 
+Quindi devo ciclare un array finhce non trovo tutte le condizioni richiestta e salvarle in un altro array 
+
+prima di tutto 
+https://www.php.net/manual/it/function.array.php ripassiamo bene come funziona in php l'array 
+
+seconda cosa
+"puoi generarmi un array di 50 utenti in php che contengano ognuno il nome, cognome, età e città devono essere di nome cognome e eta tutti univoci mentre di città alcuni possono averla uguale dato che uno dei requisiti e il raggruppamento per città"
+
+terza cosa 
+relaizare che nella documentazione esitono gia elementi come count e summ che peremttono di fare le operazioni richieste e percio e initile fare cicli e altro quando esiste un modo semplice di estrare le informazioni anche e ricordarsi che essite require_once cosi da non tenere tutto nello stesso file 
+
+quattra cosa 
+..realizare che tutti i tuoi utenti sono maggiornei ed e per questo che ti ritotrna 50 
