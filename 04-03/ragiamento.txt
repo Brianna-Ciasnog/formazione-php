@@ -31,3 +31,41 @@ relaizare che nella documentazione esitono gia elementi come count e summ che pe
 
 quattra cosa 
 ..realizare che tutti i tuoi utenti sono maggiornei ed e per questo che ti ritotrna 50 
+
+Problema con gli utenti divisi per città di appartenenza 
+
+allora 
+devo prendera la collona citta come ho fatto per eta 
+    ->$citta = array_column($utenti, 'citta');
+poi devo controllare una volta per vedere tutte le città
+poi devo controllare la lista per trovare i doppioni 
+poi devi dividere gli utenti per citta 
+
+
+ingrazziamo stackoverflow
+
+// Source - https://stackoverflow.com/a/53788384
+// Posted by daremachine
+// Retrieved 2026-03-04, License - CC BY-SA 4.0
+
+$arr = [
+    ['id' => 1, 'name' => 'a'],
+    ['id' => 2, 'parent' => 1, 'name' => 'a-child'],
+    ['id' => 3, 'parent' => 1, 'name' => 'a-child-2'],
+    ['id' => 4, 'name' => 'c'],
+];
+
+
+$new = [];
+
+foreach($arr as $key => $row) {
+    if(!isset($row['parent'])) $new[$row['id']] = $row;
+}
+
+foreach($arr as $key => $child) {
+    if(isset($child['parent'])) { 
+        $new[$child['parent']]['child'][] = $child;
+    }
+}
+
+print_r($new);
