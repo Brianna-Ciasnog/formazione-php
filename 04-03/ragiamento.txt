@@ -1,0 +1,13 @@
+Richiesta:
+Dato un Array di utenti dovro genererare un report fine con 
+• il numero totale di utenti,
+• l'età media,
+• gli utenti maggioreni 
+• gli utenti divisi per città di appartenenza 
+
+Consigli:
+Gestione tramite funzione non gestione ad oggetti
+Uttilizzo di Array di Array 
+Approccio: 
+
+
