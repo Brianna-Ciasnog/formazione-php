@@ -40,4 +40,8 @@ errore a livello sequeziale
 al contrario non entra nel ultima cassitica a piu senso escludere subito chi rientrata in trembe e poi se assegnare il posto hai rimanneti se sotto 3 o 5
 
 
+Aggiormaneto 05/03
+/*Esercizi 
+*voglio che completi le funzioni coerente e che rifaccio l'esercizio di report seguendo questo metodo logico  
+*/
 

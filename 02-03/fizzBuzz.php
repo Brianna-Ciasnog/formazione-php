@@ -24,7 +24,7 @@ per addattarlo hai metodi di programmazione ideale e addato al essere utilizzato
 $limit = 12;
 $result = [];
 
-function fizzBuzz(int $num): string 
+function fizzBuzz(int $num): string
 {
    if ($num % 3 == 0 && $num % 5 == 0) {
       return "FizzBuzz";
@@ -36,7 +36,14 @@ function fizzBuzz(int $num): string
       return "$num";
    }
 };
-
-for ($i = 1; $i <= $limit; $i++) {
-   $result[] = fizzBuzz($i);
+function cycleNumbers(int $limit, array $result): void
+{
+   for ($i = 1; $i <= $limit; $i++) {
+      $result[] = fizzBuzz($i);
+   }
 }
+function printToHtml() {}
+
+function printToJSON() {}
+
+

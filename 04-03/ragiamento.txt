@@ -41,8 +41,9 @@ poi devo controllare una volta per vedere tutte le città
 poi devo controllare la lista per trovare i doppioni 
 poi devi dividere gli utenti per citta 
 
+scoprire che non essite grupby per php 
 
-ingrazziamo stackoverflow
+ringrazziamo stackoverflow
 
 // Source - https://stackoverflow.com/a/53788384
 // Posted by daremachine

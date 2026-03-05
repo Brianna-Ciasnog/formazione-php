@@ -22,7 +22,7 @@ echo "<h3>Media delle eta generale</h3>";
 $eta = array_column($utenti, 'eta'); // percio prendo la collona 
 $sommaEta = array_sum($eta); //uso la somma
 $media = $sommaEta / $numeroUtenti; //e faccio la media con la variabile che ho gia
-echo "La Media del età: " . $media . "<br/>";
+echo "La Media del età: " . $media . " anni<br/>";
 /* -------------------------------------------------------- */
 /*Utenti maggioreni  */
 echo "<h3>Utenti Maggiorenni</h3>";
@@ -36,7 +36,7 @@ function utentiMaggioreni($utenti)
     }
     echo "Numero di utenti maggiorenni: " . $count . "<br/>";
 }
-utentiMaggioreni($utenti, $eta);
+utentiMaggioreni($utenti);
 /* -------------------------------------------------------- */
 /*Utenti divisi per citta */
 echo "<h3>Utenti divisi per città</h3>";
@@ -50,6 +50,6 @@ foreach ($utenti as $utente) {
 foreach ($utentiPerCitta as $citta => $listaUtenti) {
     echo "<h4>$citta</h4>";
     foreach ($listaUtenti as $utente) {
-        echo $utente['nome'] . " <br>";
+        echo $utente['nome'] ." - ";
     }
 }
