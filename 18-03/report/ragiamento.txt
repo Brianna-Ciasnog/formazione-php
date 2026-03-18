@@ -6,3 +6,12 @@ Dato un Array di utenti dovro genererare un report fine con
 • gli utenti divisi per città di appartenenza 
 
 rifaccio l'esercizio di report seguendo questo metodo logico  spiegando in fizzbuzz
+
+Durante il lavoro sul codice, guardando l’esercizio di FizzBuzz e dato una occhaita piu approfondaita su Internet per quandto riguarda i pilastri della programmazione, ho realizzato potevo implementarlo in questo codice,
+
+Mi sono resa conto che, per migliorare il codice che avevo già generato, bastava separare le responsabilità e organizzarle in funzioni distinte. Seguendo l’esempio di FizzBuzz, ho preso ogni singolo pezzo del mio codice originale e, passo passo, ho separato le operazioni di calcolo dei dati da quelle di visualizzazione.
+
+In questo modo:
+-Ho implementato una logica di business che si occupa esclusivamente di elaborare i dati senza mostrati.
+-Ogni funzione ha un solo compito.
+
